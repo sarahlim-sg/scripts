@@ -4,6 +4,7 @@
 URLS=(
     "https://api.example.com/health"
     "https://api.example.com/v1/status"
+    "https://api.example.com/v1/ping"
 )
 
 for url in "${URLS[@]}"; do
