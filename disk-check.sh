@@ -5,7 +5,7 @@
 HOSTS_FILE="${1:-$HOME/.ssh/work-hosts}"
 
 if [ ! -f "$HOSTS_FILE" ]; then
-    echo "No hosts file at $HOSTS_FILE"
+    echo "Hosts file not found: $HOSTS_FILE"
     echo "Create one with one hostname per line."
     exit 1
 fi
