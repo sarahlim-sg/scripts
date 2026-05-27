@@ -17,3 +17,5 @@ My personal scripts folder. Random stuff I use day-to-day on my work laptop.
 | `git-cleanup.sh` | Deletes merged local branches |
 
 Some scripts read config from `.env` in this folder. Adapt to your own.
+
+Tested on Ubuntu 22.04.
